@@ -23,7 +23,6 @@ STEP 7: Use cross tabulation method to quantitatively analyze the relationship b
 STEP 8: Use heatmap method of representation to show relationships between two variables, one plotted on each axis.
 
 ## CODING AND OUTPUT
-        <<INCLUDE YOUR CODING AND OUTPUT SCREENSHOTS>>
 ```
 import pandas as pd
 import numpy as np
@@ -50,15 +49,15 @@ dt.shape
 dt.set_index("PassengerId",inplace=True
 ```
 dt.describe()
-```
 
-![image](https://github.com/23006823/EXNO2DS/assets/138971409/0ec1b9ee-c790-46ea-96f1-7b9486e8e6cd)
+![image](https://github.com/23006823/EXNO2DS/assets/138971409/603a6476-0b6e-4939-be1d-020a5411eb5a)
 
 ```
 dt.nunique()
 ```
 
-![image](https://github.com/23006823/EXNO2DS/assets/138971409/039573b3-4c06-4c99-94c5-05ac6ccc44d4)
+![image](https://github.com/23006823/EXNO2DS/assets/138971409/e5e1049e-0421-4ed2-9d7c-15e0a7f0317b)
+
 ```
 dt["Survived"].value_counts()
 ```
