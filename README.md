@@ -52,7 +52,8 @@ dt.set_index("PassengerId",inplace=True
 dt.describe()
 ```
 
-![image](https://github.com/23006823/EXNO2DS/assets/138971409/e038a23b-6539-4651-8e8f-b0320021380d)
+![image](https://github.com/23006823/EXNO2DS/assets/138971409/0ec1b9ee-c790-46ea-96f1-7b9486e8e6cd)
+
 ```
 dt.nunique()
 ```
